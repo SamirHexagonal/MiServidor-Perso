@@ -15,3 +15,5 @@ services:
     volumes:
       - ./config:/config
       - /run/dbus:/run/dbus:ro
+      - /var/run/dbus:/var/run/dbus:ro
+
