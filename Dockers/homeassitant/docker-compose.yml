@@ -1,0 +1,12 @@
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    environment:
+      - TZ=Europe/Madrid
+    volumes:
+      - ./config:/config
+    network_mode: host
+    privileged: true
+    restart: unless-stopped
