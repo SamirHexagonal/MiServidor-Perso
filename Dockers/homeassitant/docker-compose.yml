@@ -4,16 +4,9 @@ services:
   homeassistant:
     container_name: homeassistant
     image: ghcr.io/home-assistant/home-assistant:stable
-    privileged: true
-    cap_add:
-      - NET_ADMIN
-      - NET_RAW
-    network_mode: host
     restart: unless-stopped
+    network_mode: host
     environment:
       - TZ=Europe/Madrid
     volumes:
       - ./config:/config
-      - /run/dbus:/run/dbus:ro
-      - /var/run/dbus:/var/run/dbus:ro
-
