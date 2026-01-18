@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  wg-easy:
+    image: weejewel/wg-easy
+    container_name: wg-easy
+    restart: unless-stopped
+    environment:
+      - WG_HOST=192.168.1.139
+      - PASSWORD=pica2025.
+      - WG_PORT=51820
+    ports:
+      - "51820:51820/udp"
+      - "51821:51821/tcp"  # Interfaz web de wg-easy
+    volumes:
+      - ./wg-easy/config:/etc/wireguard
