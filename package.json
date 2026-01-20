@@ -1,0 +1,16 @@
+{
+  "name": "miservidor-perso",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ssh:samirrt": "ssh samirrt@100.71.38.32",
+    "ssh:mac": "ssh samircabrera@100.74.46.111",
+    "ssh:win:admin": "ssh samir@",
+    "ssh:win:gaming": "ssh gaming@",
+    "ssh:win:personal": "ssh personal@",
+    "ssh:win:trabajo": "ssh trabajo@"
+  },
+  "author": "Samir",
+  "license": "ISC",
+  "description": ""
+}
