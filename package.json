@@ -5,10 +5,10 @@
   "scripts": {
     "ssh:samirrt": "ssh samirrt@100.71.38.32",
     "ssh:mac": "ssh samircabrera@100.74.46.111",
-    "ssh:win:admin": "ssh samir@",
-    "ssh:win:gaming": "ssh gaming@",
-    "ssh:win:personal": "ssh personal@",
-    "ssh:win:trabajo": "ssh trabajo@",
+    "ssh:win:admin": "ssh samir@100.69.161.62",
+    "ssh:win:gaming": "ssh gaming@100.69.161.62",
+    "ssh:win:personal": "ssh personal@100.69.161.62",
+    "ssh:win:trabajo": "ssh trabajo@100.69.161.62",
     "ssh:avmadrid": "ssh avmadrid@100.115.187.80"
   },
   "author": "Samir",
