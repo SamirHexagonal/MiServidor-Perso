@@ -8,7 +8,8 @@
     "ssh:win:admin": "ssh samir@",
     "ssh:win:gaming": "ssh gaming@",
     "ssh:win:personal": "ssh personal@",
-    "ssh:win:trabajo": "ssh trabajo@"
+    "ssh:win:trabajo": "ssh trabajo@",
+    "ssh:avmadrid": "ssh avmadrid@100.115.187.80"
   },
   "author": "Samir",
   "license": "ISC",
