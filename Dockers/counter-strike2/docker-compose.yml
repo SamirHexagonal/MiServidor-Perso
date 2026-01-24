@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  cs2:
+    image: cm2network/cs2
+    container_name: cs2-server
+    restart: unless-stopped
+
+    environment:
+      # Steam
+      STEAMAPPID: 730
+      SRCDS_TOKEN: "7A7464CF4E8D78DF3C1B400EECC35BD3"
+
+      # Servidor
+      CS2_SERVERNAME: "Mi servidor CS2"
+      CS2_RCON_PASSWORD: "rconpassword"
+      CS2_PASSWORD: ""
+      CS2_PORT: 27015
+      CS2_TV_PORT: 27020
+      CS2_MAXPLAYERS: 12
+      CS2_MAP: "de_mirage"
+
+    ports:
+      - "27015:27015/udp"
+      - "27015:27015/tcp"
+      - "27020:27020/udp"
+
+    volumes:
+      - ./data:/home/steam/cs2-dedicated
+
+    tty: true
+    stdin_open: true
