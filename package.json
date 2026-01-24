@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "ssh:samirrt": "ssh samirrt@100.71.38.32",
+    "ssh:samir": "ssh samir@100.71.38.32",
     "ssh:mac": "ssh samircabrera@100.74.46.111",
     "ssh:win:admin": "ssh samir@100.69.161.62",
     "ssh:win:gaming": "ssh gaming@100.69.161.62",
