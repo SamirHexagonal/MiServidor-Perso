@@ -9,7 +9,8 @@
     "ssh:win:gaming": "ssh gaming@100.69.161.62",
     "ssh:win:personal": "ssh personal@100.69.161.62",
     "ssh:win:trabajo": "ssh trabajo@100.69.161.62",
-    "ssh:avmadrid": "ssh avmadrid@100.115.187.80"
+    "ssh:avmadrid": "ssh avmadrid@100.115.187.80",
+    "console:minecraft": "docker attach mc-bedrock"
   },
   "author": "Samir",
   "license": "ISC",
