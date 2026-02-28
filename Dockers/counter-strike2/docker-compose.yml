@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   cs2:
     image: cm2network/cs2
@@ -7,11 +5,9 @@ services:
     restart: unless-stopped
 
     environment:
-      # Steam
       STEAMAPPID: 730
-      SRCDS_TOKEN: "7A7464CF4E8D78DF3C1B400EECC35BD3"
+      SRCDS_TOKEN: "D49634E35375242ADAFD709205A55278"
 
-      # Servidor
       CS2_SERVERNAME: "Mi servidor CS2"
       CS2_RCON_PASSWORD: "rconpassword"
       CS2_PASSWORD: ""
