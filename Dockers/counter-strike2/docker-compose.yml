@@ -15,6 +15,7 @@ services:
       CS2_TV_PORT: 27020
       CS2_MAXPLAYERS: 12
       CS2_MAP: "de_mirage"
+      CS2_LAN: 0
 
     ports:
       - "27015:27015/udp"
